@@ -1,0 +1,44 @@
+{
+  "name": "0126af95c0e2d9b0a7c78738c4c00a860b04acc8",
+  "version": "0.0.0",
+  "description": "r4nd0mstr1ng",
+  "license": "MIT",
+  "repository": "stevemao/0126af95c0e2d9b0a7c78738c4c00a860b04acc8",
+  "author": {
+    "name": "Steve Mao",
+    "email": "maochenyan@gmail.com",
+    "url": "github.com/stevemao"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "string",
+    "random",
+    "secure",
+    "id",
+    "hash"
+  ],
+  "dependencies": {
+    "meow": "^3.4.2"
+  },
+  "devDependencies": {
+    "ava": "^0.3.0",
+    "xo": "^0.10.0"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
